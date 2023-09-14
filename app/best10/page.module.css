@@ -1,0 +1,43 @@
+.cardwrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33%;
+  position: relative;
+  margin-bottom: 50px;
+}
+.cardimg {
+  width: 400px;
+  height: 400px;
+}
+.realwrap {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.cardtxt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.cardtitle {
+  margin-top: 3px;
+}
+.carddis {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.cardprice {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}

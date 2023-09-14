@@ -1,0 +1,33 @@
+.writeWrap {
+  padding: 100px 50px;
+}
+.writeWrap h4 {
+  margin-bottom: 20px;
+}
+.writeWrap form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.writeWrap form input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+.writeWrap form textarea {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+.writeWrap form button {
+  background: rebeccapurple;
+  border: none;
+  padding: 5px 20px;
+  color: #fff;
+  width: 150px;
+}
